@@ -1,0 +1,41 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background: linear-gradient(to bottom, #2d3e50, #4c5a6a); /* Gradasi biru navy */
+  border-radius: 8px;
+  box-shadow: 0 8px 20px rgba(45, 62, 80, 0.3);
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 50%;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #9fbcd4);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #557a95);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}

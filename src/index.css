@@ -1,0 +1,51 @@
+:root {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  background-color: #2d3e50;
+  color: #eaeaea;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #2d3e50, #4a6278); /* gradasi navy lembut */
+  margin: 0;
+}
+
+a {
+  color: #a6c1e1;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover {
+  color: #dcecff;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: 700;
+  color: #f4f4f4;
+}
+
+button {
+  background-color: #6ea2d3;
+  color: #ffffff;
+  border: none;
+  padding: 0.6em 1.2em;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #558ab7;
+  color: #f0f0f0;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 2px solid #a6c1e1;
+}
