@@ -5,7 +5,7 @@ function Navbar() {
     <div className={styles.container}>
       <nav className={styles.navbar}>
         <div className={styles.logoBrand}>
-          <img src="/images/logo.png" alt="Logo Coffee Botsky" className={styles.logo} />
+          <img src="{`${import.meta.env.BASE_URL}/images/logo.png" alt="Logo Coffee Botsky" className={styles.logo} />
           <h1 className={styles.navbar__brand}>Coffe Botsky</h1>
         </div>
         <div>
